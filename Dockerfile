@@ -10,7 +10,6 @@ RUN go-wrapper download
 # RUN go-wrapper install
 RUN CGO_ENABLED=0 go build
 
-# EXPOSE 8300
 
 # Now tell Docker what command to run when the container starts
 # CMD ["go-wrapper", "run"]
